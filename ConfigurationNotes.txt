@@ -1,0 +1,11 @@
+Home: https://developer.hashicorp.com/packer
+Download: https://releases.hashicorp.com/packer/1.8.6/packer_1.8.6_windows_amd64.zip
+
+# not working from mapped disk (c:\Temp used instead)
+
+# turn on logging in Windows PowerShell
+$env:PACKER_LOG=1
+$env:PACKER_LOG_PATH="packerlog.txt"
+
+
+
